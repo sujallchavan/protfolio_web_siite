@@ -59,3 +59,10 @@
   .navbar a:hover::before{
     width: 100%;
   }
+
+  @media screen and (max-width:950px) {
+    .navbar a{
+      display: none;
+    }
+    
+  }
