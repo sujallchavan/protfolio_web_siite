@@ -2,26 +2,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
    
     <link rel="stylesheet" href="style.css">
     <title>sujalchavan</title>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".navbar")
+    
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('.mobile-menu')
+        })
+    </script>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"> Sujal Chavan</a>
+        <h1 class="logo"> Sujal Chavan</h1>
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">skills</a>
-            <a href="#">Qualifications</a>
-            <a href="#">Certifications</a>
-            <a href="#">Contact</a>
-            
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">skills</a>
+            <a href="#Qualification">Qualifications</a>
+            <a href="#Certifications">Certifications</a>
+            <a href="#Contact">Contact</a>
         </nav>
-
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
     </header>
-    
+
+    <section id="Home">
+        Home Section
+    </section>
+    <section id="About">
+        About Section
+    </section>
+    <div class="button">
+        <a href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
 </body>
+
 </html>
