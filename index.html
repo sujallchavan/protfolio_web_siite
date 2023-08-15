@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>sujalchavan</title>
     <script>
@@ -14,24 +15,54 @@
         menuHamburger.addEventListener('click',()=>{
         navLinks.classList.toggle('.mobile-menu')
         })
+
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+        document.body.classList.toggle("dark");
+        if(document.body.classList.contains("dark")){
+            icon.src="img/sun.png";
+
+        }
+        else{
+            icon.src="img/moon.png";
+        }
+        }
+
     </script>
+
+   
 </head>
 <body>
     <header class="header">
         <h1 class="logo"> Sujal Chavan</h1>
         <nav class="navbar">
-            <a href="#Home">Home</a>
+            <a href="#Home" class="active">Home</a>
             <a href="#About">About</a>
             <a href="#Skills">skills</a>
             <a href="#Qualification">Qualifications</a>
             <a href="#Certifications">Certifications</a>
             <a href="#Contact">Contact</a>
+            <img src="img/moon.png" id="icon">
         </nav>
+ 
         <span class="glyphicon glyphicon-menu-hamburger"></span>
     </header>
 
     <section id="Home">
-        Home Section
+         <div class="home-section">
+               <div class="social">
+                <i class='bx bxl-instagram-alt'></i>
+                <i class='bx bxl-github' ></i>
+                <i class='bx bxl-linkedin' ></i>
+                <i class='bx bxl-twitter' ></i>
+               </div>
+              <div class="info">
+                 <h1>a</h1>
+              </div>
+              <div class="photo">
+                 <img src="img/sujalchavan.jpg" class="photo1">
+              </div>
+         </div>
     </section>
     <section id="About">
         About Section
@@ -39,6 +70,6 @@
     <div class="button">
         <a href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
       </div>
+     
 </body>
-
 </html>

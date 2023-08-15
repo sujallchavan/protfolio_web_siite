@@ -8,10 +8,18 @@
     font-family: "Poppins",sans-serif;
     scroll-behavior: smooth;
   }
+   :root{
+    --primary-color: rgb(32, 31, 31);
+    --secondary-color:white;
+   }
 
-  body{
-    min-height: 100vh;
-    background-color: black;
+   .dark{
+       --primary-color: white;
+       --secondary-color: rgb(32, 31, 31);
+   }
+  
+  .bx{
+    cursor: pointer;
   }
 
   .header{
@@ -29,7 +37,7 @@
   
   .logo {
     font-size: 32px;
-    color: #fff;
+    color:var(--primary-color);
     text-decoration: none;
     font-weight: 700;
   }
@@ -37,7 +45,7 @@
   .navbar a{
     position: relative;
     font-size: 18px;
-    color: #fff;
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 500;
     text-decoration: none;
@@ -57,12 +65,15 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #fff;
+    background-color:var(--primary-color);
     transition: .3s;
   }
 
   .navbar a:hover::before{
     width: 100%;
+  }
+  .i{
+    font-size: 100px;
   }
 
   .glyphicon-menu-hamburger{
@@ -71,6 +82,7 @@
     position: absolute;
     right: 50px;
     width: 50px;
+    cursor: pointer;
     top: 55px;
     color: aqua;
     font-size: larger;
@@ -107,6 +119,7 @@
     }
     .glyphicon-menu-hamburger{
       display: block;
+      
     }
     .logo{
       position: absolute;
@@ -121,7 +134,7 @@
 
   @media  screen and (max-width:320px) {
     .glyphicon-menu-hamburger {
-      
+      cursor: pointer;
       width: 35px;
       position: absolute;
       right: 50px;
@@ -134,7 +147,7 @@
   .logo {
     font-size: 18px;
     margin-left: -60px;
-    color: #fff;
+    color: var(--primary-color);
     text-decoration: none;
     margin-bottom: 0;
     font-weight: 700;
@@ -160,11 +173,43 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    color: #96c7e8;
+    color: var(--secondary-color);
     font-size: 70px;
     flex-direction: column;
-    border: #fff;
+ 
   }
   #Home{
-    background: #010101;
+    background: var(--secondary-color);
+  }
+  #About{
+    background:var(--secondary-color);
+  }
+  #icon{
+    width: 30px;
+    cursor: pointer;
+  }
+  .home-section{
+    display: flex;
+    justify-content: space-between;
+  }
+  .social{
+    background-color: aqua;
+    width: 150px;
+    height: 500px;
+  }
+  .info{
+    background-color: #2980b9;
+    width: 490px;
+    height: 500px;
+  }
+  .photo{
+    background-color: beige;
+    width: 550px;
+    height: 500px;
+  }
+  .photo1{
+    width: 550px;
+    height: 600px; 
+    border-radius: 12px;
+    padding-left: 20px;
   }
