@@ -28,7 +28,7 @@
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background-color:transparent;
+    background-color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@
 
   .navbar{
     min-height: 50px;
-    margin-bottom: -35px;
+    margin-bottom: -10px;
   
   }
   
@@ -72,9 +72,7 @@
   .navbar a:hover::before{
     width: 100%;
   }
-  .i{
-    font-size: 100px;
-  }
+  
 
   .glyphicon-menu-hamburger{
     display: none;
@@ -193,9 +191,14 @@
     justify-content: space-between;
   }
   .social{
-    background-color: aqua;
-    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    color: #9F2B68;
+    width: 100px;
     height: 500px;
+    padding-left: 27px;
   }
   .info{
     background-color: #2980b9;
@@ -208,8 +211,24 @@
     height: 500px;
   }
   .photo1{
-    width: 550px;
-    height: 600px; 
+    width: 600px;
+    height: 550px; 
     border-radius: 12px;
-    padding-left: 20px;
+    padding-left: 0px;
+    object-fit: cover;
   }
+
+  span{
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  i{
+    font-size: 30px;
+    padding-left: 20px;
+ }
+ .name{
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 60px;
+  padding-left: 20px;
+ }
