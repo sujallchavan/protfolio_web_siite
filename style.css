@@ -7,18 +7,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
-    
     scroll-behavior: smooth;
   }
-   :root{
-    --primary-color: rgb(32, 31, 31);
-    --secondary-color:white;
-   }
-
-   .dark{
-       --primary-color: white;
-       --secondary-color: rgb(32, 31, 31);
-   }
+  
   
   .bx{
     cursor: pointer;
@@ -29,8 +20,8 @@
     top: 0;
     left: 0;
     width: 100%;
+    backdrop-filter: blur(10px);
     padding: 20px 100px;
-    background-color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,9 +30,10 @@
   
   .logo {
     font-size: 32px;
-    color:var(--primary-color);
+    color: #9F2B68;
+    /* color:var(--primary-color); */
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 900;
   }
 
   .navbar a{
@@ -172,17 +164,17 @@
     height: 100vh;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     color: var(--secondary-color);
     font-size: 70px;
     flex-direction: column;
  
   }
   #Home{
-    background: var(--secondary-color);
+    /* background: var(--secondary-color); */
   }
   #About{
-    background:var(--secondary-color);
+    /* background:rgb(133, 120, 120); */
   }
   #icon{
     width: 30px;
@@ -190,8 +182,9 @@
   }
   .home-section{
     display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    padding-top: 150px;
   }
   .social{
     display: flex;
@@ -208,6 +201,7 @@
     width: 490px;
     height: 500px;
   }
+  
   .photo{
     /* background-color: beige; */
     width: 550px;
@@ -233,11 +227,13 @@
   i{
     font-size: 30px;
     padding-left: 20px;
+    margin-top: 20px;
  }
  .name{
   font-size: 50px;
   font-weight: 900;
-  margin-top: 70px;
+  margin-top: 90px;
+  height: 20px;
   font-family: 'Fira Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
   padding-left: 90px;
@@ -245,17 +241,19 @@
  }
  .item{
   size: 40px;
-  margin-top: 150px;
+  margin-top: 10px;
   margin-left: 90px;
-  color: black;
+  color:var(--primary-color);
  }
  .btn{
   margin-top: 20px;
   background-color: #9F2B68;
   font-weight: 900;
    color:white;
+   border: none;
    height:60px;
    width:140px;
+   
    border-radius: 5px;
  }
  .btn1{
@@ -263,3 +261,120 @@
   /* margin-top: 20px; */
   margin-left: 90px;
  }
+ .btn2{
+  size: 40px;
+  /* margin-top: 20px; */
+  margin-left: -47px;
+ }
+ .About-section{
+  /* background-color: #9F2B68; */
+  /* position: relative; */
+  /* padding-top: 120px; */
+  color: var(--primary-color);
+  display: flex;
+  font-weight: 900;
+ }
+
+ .my{
+  color: #050405;
+  margin-left: 41px;
+}
+.h{
+  color:var(--primary-color);
+  /* margin-left: 41px; */
+}
+h6{
+  margin-left: -13px;
+  font-size: 15px;
+  color: var(--primary-color);
+}
+h1{
+  color: var(--primary-color);
+}
+.about-photo{
+  width: 400px;
+    height: 400px; 
+    border-radius: 2%;
+    margin-top: 52px;
+    margin-left: 130px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 50%;
+    top: 2;
+    justify-content: center;
+}
+.about-text{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 600px;
+    height: 400px;
+  /* background-color: aliceblue; */
+}
+#About{
+padding-left: 20px;
+  padding-top: 100px;
+}
+.photo2{
+  width: 400px;
+  height: 400px; 
+  border-radius: 100%;
+  margin-top: -11px;
+  margin-left: -30px;
+  object-fit: cover;
+  display: flex;
+  top: 2;
+  justify-content: center;
+}
+.skill-section{
+  /* background-color: #9F2B68; */
+  /* position: relative; */
+  /* padding-top: 120px; */
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+ }
+ .my-sk{
+  
+  margin-top: -1px;
+  margin-left: 10px;
+ }
+
+ .sk{
+  margin-top: 115px;
+ }
+/* 
+ .skill-div{
+  background-color: #2980b9;
+  
+ }
+ .tools-div{
+  background-color: #9F2B68;
+ } */
+ .skill{
+  background-color: #2980b9;
+  width: 600px;
+    height: 400px;
+ }
+ .tools{
+  background-color: #9F2B68;
+  width: 600px;
+    height: 400px;
+ }
+
+ .sp{
+  margin: 200px 200px 0px 20px;
+ }
+
+ #element{
+  padding-left: 90px;
+ }
+ h5{
+  padding-left: 90px;
+ margin-top: -10px;
+ }
+ 

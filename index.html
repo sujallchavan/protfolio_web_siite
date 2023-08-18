@@ -52,16 +52,18 @@
         </div>
         <div class="info">
           <h1 class="name">Hi, I'm Sujal </h1>
+          <span id="element"></span>
+           <!-- Element to contain animated typing -->
+          
           <div class="item">
-            <h4>Codophilic Learner ||</h4>
-            <h4> Security Researcher & Pen-Tester ||</h4>
-            <h4>Full Stack Web And Andorid Developer ||</h4>
+            <h4 class="h">Codophilic Learner ||</h4>
+            <h4 class="h"> Security Researcher & Pen-Tester ||</h4>
+            <h4 class="h">Full Stack Web And Andorid Developer ||</h4>
           </div>
           <div class="btn1">
-            <input  class="btn" type="button" name="Explore" value="Explore">
+            <a href="#About"><input  class="btn" type="button" name="Explore" value="Explore"></a>
           </div>
-          ;
-          
+      
         
         </div>
         <div class="photo">
@@ -69,14 +71,53 @@
         </div>
       </div>
     </section>
-    <section id="About">About Section</section>
-    <section id="Skills">About Section</section>
-    <section id="Qualification">About Section</section>
-    <section id="Certifications">About Section</section>
+    <section id="About">
+      <h1 class="Ab">About me </h1>
+        <h6 class="My">My introduction</h6>
+      <div class="About-section">
+        
+        <div class="about-photo">
+          <img src="img/photo1673792942 (4).jpeg" class="photo2">
+        </div>
+        <div class="about-text">
+          <h4>Hey I'am Sujal Chavan👋. I am 19 Year Student , Currently Perusing My BTech In Computer Engineering At Pune. I am A Web Developer And Find Myself Congerial while Creating Pleasing And Charming Website. I am Not Only A Philomath But Also A Technophile And Loves To Loiter My Time In Listening EDM's and Having a Security Research In Various Vulnerabilities.</h4>
+          <div class="btn2">
+            <a href="#About"><input  class="btn" type="button" name="Explore" value="Resume"></a>
+          </div>
+        </div>
+
+      </div>
+      
+    </section>
+    <section id="Skills"> 
+      <h1 class="sk">Skills</h1>
+      <h6 class="my-sk">My Technical Skills</h6>
+    <div class="skill-section">
+      
+      <div class="skill">
+        <i class='bx bx-code-curly' id="ic"></i>
+        <span class="sp">Languages</span>
+        <h5>Skills I have picked up over the years</h5>
+      </div>
+      <div class="tools">
+        <i class='bx bx-code-curly' id="ic"></i>
+        <span class="sp">tools</span>
+        <h5>Tools I know and use on a daily basis</h5>
+      </div>
+
+    </div></section>
+    <section id="Qualification">.</section>
+    <section id="Certifications">.</section>
     <section id="Contact"></section>
     <div class="button">
       <a href="#Home"><span class="fa-solid fa-arrow-up"></span></a>
     </div>
-
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['web devloper.', 'web devlopfffer','wffeb devloper','wffebf devloper','wfxfeb devloper'],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>
