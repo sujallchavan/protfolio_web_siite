@@ -210,7 +210,7 @@
   .photo1{
     width: 400px;
     height: 400px; 
-    border-radius: 2%;
+    border-radius: 15px 50px 30px;
     margin-top: 52px;
     margin-left: 130px;
     object-fit: cover;
@@ -223,11 +223,14 @@
   span{
     font-size: 25px;
     padding-bottom: 20px;
+    
   }
+
   i{
     font-size: 30px;
     padding-left: 20px;
     margin-top: 20px;
+    color: #9F2B68;
  }
  .name{
   font-size: 50px;
@@ -277,6 +280,7 @@
 
  .my{
   color: #050405;
+  margin-top: 20000px;
   margin-left: 41px;
 }
 .h{
@@ -290,6 +294,7 @@ h6{
 }
 h1{
   color: var(--primary-color);
+  font-weight: 900;
 }
 .about-photo{
   width: 400px;
@@ -310,13 +315,17 @@ h1{
   padding-top: 60px;
   padding-left: 100px;
   padding-right: 100px;
+  
   width: 600px;
     height: 400px;
   /* background-color: aliceblue; */
 }
 #About{
 padding-left: 20px;
-  padding-top: 100px;
+  padding-top: 95px;
+}
+.ab{
+  font-weight: 900;
 }
 .photo2{
   width: 400px;
@@ -329,15 +338,38 @@ padding-left: 20px;
   top: 2;
   justify-content: center;
 }
-.skill-section{
+/* .skill-section{ */
   /* background-color: #9F2B68; */
   /* position: relative; */
   /* padding-top: 120px; */
-  color: var(--primary-color);
+  /* color: var(--primary-color);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   font-weight: 900;
- }
+ } */
+
+ /* .flex-container > div{
+  background-color: #2980b9;
+ } */
+
+.flex-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > .sujal {
+  backdrop-filter: blur(10px);  
+  border-radius: 30px;
+  border: 1px solid #9F2B68;
+  width: 550px;
+  height: 370px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  /* font-size: 50px; */
+}
  .my-sk{
   
   margin-top: -1px;
@@ -346,6 +378,7 @@ padding-left: 20px;
 
  .sk{
   margin-top: 115px;
+  font-weight: 900;
  }
 /* 
  .skill-div{
@@ -355,26 +388,83 @@ padding-left: 20px;
  .tools-div{
   background-color: #9F2B68;
  } */
- .skill{
+ /* .skill{
   background-color: #2980b9;
-  width: 600px;
+  width: 500px;
     height: 400px;
  }
  .tools{
   background-color: #9F2B68;
-  width: 600px;
+  width: 500px;
     height: 400px;
- }
+ } */
 
  .sp{
-  margin: 200px 200px 0px 20px;
+  margin-left: 1px;
+  font-size: 30px;
+  padding-top: -100px;
+  font-weight: 900;
  }
 
  #element{
   padding-left: 90px;
  }
  h5{
-  padding-left: 90px;
+  padding-left: 40px;
  margin-top: -10px;
  }
+ #ic{
+  font-size: 19px;
+  padding-top: 2px;
+ }
+ .skill-sub{
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 70px;
+  margin-right: 0px;
+  justify-content: center;
+  /* background-color: #2980b9; */
+ }
+ .lang{
+  width: 230px;
+  font-size: 20px;
+  text-align: justify;
+  
+  /* background-color: #9F2B68; */
+ }
+ .lang1{
+  width: 230px;
+  font-size: 20px;
+  text-align: justify;
+  /* background-color: pink; */
+ }
+
+ .java{
+  padding-bottom: 20px;
+  width: 100%;
+  height: 60px;
+ }
+ .j{
+  margin-left: 25px;  
+  font-weight: 600;
+  font-size: 20px;
+  color: #050405;
+ }
+ #skill-icons{
+  font-size: 20px;
+  margin-right: 50px;
+  color: #9F2B68;
+ }
+ .sub-text{
+  margin-top: -44px;
+  font-size: 13px;
+  margin-left: 48px;
+  text-align: justify;
+ }
+
+
+ /* impoterd css from diffrent web site */
  
