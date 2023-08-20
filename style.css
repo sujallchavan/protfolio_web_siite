@@ -13,6 +13,7 @@
   
   .bx{
     cursor: pointer;
+    color: #9F2B68;
   }
 
   .header{
@@ -256,7 +257,7 @@
    border: none;
    height:60px;
    width:140px;
-   
+   cursor: pointer;
    border-radius: 5px;
  }
  .btn1{
@@ -466,5 +467,44 @@ padding-left: 20px;
  }
 
 
+
+ #Div2 {
+  display: none;
+}
+
+.btn-select{
+  display: flex;
+}
+
+.btn3{
+  height: 30px;
+  margin-left: 20px;
+}
+.btn-s{
+    background-color:#9F2B68;
+    border: none;
+   justify-content: center;
+    color: white;
+    width: 130px;
+    text-align: center;
+    padding-left: -100px;
+   padding-bottom: 15px;
+   padding-right: px;
+    font-size: 16px;
+    cursor: pointer;
+  
+  /* Darker background on mouse-over */
+  
+
+}
+.btn-s:hover {
+  background-color: RoyalBlue;
+}
+#id {
+  font-size: 17px;
+margin-right: 4px;
+  padding-left: 0px;
+  color: #fff;
+}
  /* impoterd css from diffrent web site */
  
