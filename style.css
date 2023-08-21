@@ -162,7 +162,7 @@
 
   section{
     display: flex;
-    height: 100vh;
+    height: 122vh;
     width: 100%;
     align-items: center;
     /* justify-content: center; */
@@ -259,6 +259,10 @@
    width:140px;
    cursor: pointer;
    border-radius: 5px;
+ }
+ .btn:hover{
+  color: #fff;
+  background-color: #892459;
  }
  .btn1{
   size: 40px;
@@ -481,6 +485,7 @@ padding-left: 20px;
   margin-left: 20px;
 }
 .btn-s{
+    border-radius: 5px;
     background-color:#9F2B68;
     border: none;
    justify-content: center;
@@ -498,13 +503,105 @@ padding-left: 20px;
 
 }
 .btn-s:hover {
-  background-color: RoyalBlue;
+  background-color:#892459;
 }
 #id {
   font-size: 17px;
-margin-right: 4px;
+margin-right: 8px;
   padding-left: 0px;
   color: #fff;
 }
- /* impoterd css from diffrent web site */
- 
+
+#Div1{
+  margin-top: 150px;
+  /* background-color: #9F2B68; */
+  width: 700px;
+display: flex;
+  margin-bottom: 200px;
+  height: 100%;
+}
+#Div2{
+  margin-top: 150px;
+  width: 700px;
+  margin-bottom: 200px;
+  height: 100%;
+}
+#itm{
+  border-right: 2px solid #9F2B68;
+  /* background-color: #2980b9; */
+  width: 320px;
+  /* padding-left: 245px; */
+  margin-left: 40px;
+}
+#itm1{
+  /* background-color: #ebdee5; */
+  width: 320px;
+  padding-left: 0;
+  /* padding-left: 245px; */
+  margin-left: 0px;
+}
+#i1{
+/* background-color: #fff; */
+margin-top: -20px;
+}
+#i5{
+  margin-top: 0px;
+}
+
+#i1-o{
+border:2px solid #9F2B68;
+border-radius: 50%;
+margin-left: -12px;
+background-color:#9F2B68;
+width: 22px;
+height: 22px;
+}
+#i1-o1{
+  border:2px solid #9F2B68;
+  border-radius: 50%;
+  margin-left: 308px;
+  background-color:#9F2B68;
+  width: 22px;
+  height: 22px;
+  }
+
+
+#i3{
+  /* background-color: #fff; */
+  margin-top: -20px;
+  font-size: 200px;
+  padding-bottom: 138px;
+}
+#i2{
+  /* background-color: #fff; */
+  margin-top: -20px;
+  font-size: 200px;
+  padding-bottom: 138px;
+}
+#i4{
+  /* background-color: #fff; */
+margin-top: -21px;
+margin-left: 35px;
+}
+
+.i1-h{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.i1-s{
+  font-size: 20px;
+}
+
+#i1-i{
+  
+  color: #a8a0a4;
+  font-size: 15px;
+}
+.project1{
+  height: 1000px;
+  padding-top: 200px;
+}
+.pj{
+  margin-top: 113px;
+}
