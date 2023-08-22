@@ -162,7 +162,7 @@
 
   section{
     display: flex;
-    height: 880px ;
+    /* height: 880px ; */
     width: 100%;
     align-items: center;
    
@@ -602,3 +602,226 @@ margin-left: 35px;
 .pj{
   margin-top: 113px;
 }
+.project-section{
+  /* background-color: #c94343; */
+  height: 420px;
+  width: 1200px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.pro{
+  width: 380px;
+  object-fit: cover;
+  border: 2px solid #9F2B68;
+  border-radius: 15px 50px 30px;
+  /* background-color: #a8a0a4; */
+}
+.ig{
+  object-fit: cover;
+  /* background-color: black; */
+  border-radius: 15px 30px 30px;
+  margin-top: 20px;
+  margin-left: 29px;
+  border: 2px solid black;
+  width: 320px;
+  height: 200px;
+}
+/* .ig1{
+  object-fit: cover;
+} */
+
+/* impoterd css */
+
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/*  */
+.pro-section{
+  display: flex;
+  padding: 0 35px;
+  padding-top: 31px;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+  /* background: linear-gradient(to left top, #031A9A, #8B53FF); */
+}
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+}
+.wrapper i {
+  top: 35%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+ 
+  left: -52px;
+}
+.wrapper i:last-child{
+  right: -52px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 450px;
+  list-style: none;
+  /* background: #ca3030; */
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.ti{
+  margin-top: 250px;
+}
+.rep{
+  display: flex;
+  margin-top: -8px;
+}
+.carousel .card .img {
+  /* background: #8B53FF; */
+  height: 200px;
+  width: 351px;
+  /* border-radius: 50%; */
+}
+.card .img img {
+  width: 350px;
+  height: 200px;
+  margin-top: 0px;
+  border-radius: 6%;
+  object-fit: cover;
+  /* border: 1px solid #fff; */
+}
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+.carousel .card span {
+  color: #6A6D78;
+  font-size: 1.31rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
+.btn-rep{
+  margin-top: 20px;
+  background-color: #9F2B68;
+  font-weight: 900;
+   color:white;
+   border: none;
+   text-decoration: none;
+   height:60px;
+   width:140px;
+   margin-left: -100px;
+   margin-right: 20px;
+   margin-top: -100px;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 15px
+  
+}
+
+.btn-rep1{
+  margin-top: 20px;
+  background-color: #9F2B68;
+  font-weight: 900;
+   color:white;
+   border: none;
+   text-decoration: none;
+   height:60px;
+   width:140px;
+   margin-left: -100px;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 15px
+  
+}
+
+/* 
+Here are some of my projects on Web-Development!
+
+Personal Portfolio
+Website desgined for My Personal. Used HTML5, CSS And JavaScript.It Is Hosted On GitHub Pages.
+
+Repo Link     Check Out   
+
+ELAR, An Edu-AR App
+“ELAR” is An Augmented Reality based software which can be used by students with their traditional textbooks. This software will help students to visualize the 3D representation of the entity they are learning about.
+
+Repo Link   
+
+Grof-Mart
+“Grof-Mart” is a trial to supply the benefits of on-line looking to customers of a true look.This Is A Online Grocery Store With Full Payment Gateway Build In Pure Javascript And HTML.
+
+Repo Link     Check Out   
+
+Recharge Application
+This Is The Simple Recharge Application Made Using Swing And Awt Component From Java . It Consists All Core As Well As Advance Concepts .
+
+Repo Link  
+
+Investorz, Stock Market App
+A Stock Market Learning Application Built In Android With Firebase Database.It Helps The Stock Market Begineer To learn About Investment and Stock Market.
+
+Repo Link  
+
+Personal Portfolio
+Website desgined for My Personal. Used HTML5, CSS And JavaScript.It Is Hosted On GitHub Pages. */
