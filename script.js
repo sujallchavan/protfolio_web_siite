@@ -47,6 +47,6 @@ function switchVisiblee() {
 
 
 var typed = new Typed('#element', {
-    strings: ['web devloper.', 'web devlopfffer','wffeb devloper','wffebf devloper','wfxfeb devloper','music','play'],
-    typeSpeed: 50,
+    strings: ['web devloper.', 'web devlopfffer','wffeb devloper','wffebf devloper','wfxfeb devloper','music','play','drawing','video game','android','ios','java'],
+    typeSpeed: 150,
   });

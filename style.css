@@ -162,21 +162,16 @@
 
   section{
     display: flex;
-    height: 122vh;
+    height: 880px ;
     width: 100%;
     align-items: center;
-    /* justify-content: center; */
+   
     color: var(--secondary-color);
     font-size: 70px;
     flex-direction: column;
+  }
  
-  }
-  #Home{
-    /* background: var(--secondary-color); */
-  }
-  #About{
-    /* background:rgb(133, 120, 120); */
-  }
+ 
   #icon{
     width: 30px;
     cursor: pointer;
@@ -195,7 +190,8 @@
     color: #9F2B68;
     width: 100px;
     height: 500px;
-    padding-left: 27px;
+    line-height: 10px;
+    padding-left: 80px;
   }
   .info{
     /* background-color: #2980b9; */
@@ -255,6 +251,7 @@
   font-weight: 900;
    color:white;
    border: none;
+   text-decoration: none;
    height:60px;
    width:140px;
    cursor: pointer;
