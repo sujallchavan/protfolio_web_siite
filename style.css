@@ -1061,7 +1061,7 @@ form .icon {
    cursor: pointer;
    border-radius: 5px;
    font-size: 15px
-  
+   
 }
 
 .btn-rep1{
@@ -1189,6 +1189,7 @@ textarea::placeholder{
   font-size: 50px;
 }
 .footer-text{
+  margin-top: -8px;
   text-align: center;
   font-size: 3px;
 }
