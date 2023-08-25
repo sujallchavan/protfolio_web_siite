@@ -629,6 +629,290 @@ margin-left: 35px;
   width: 320px;
   height: 200px;
 }
+
+.Contact-section{
+  /* background-color: #892459; */
+  display: flex;
+  margin-top: -40px;
+
+}
+.Contact-form
+{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  padding-top: 60px;
+  padding-left: 160px;
+  padding-right: 100px;
+  width: 600px;
+  height: 400px;
+  
+  display: flex;
+
+}
+.sms{
+  /* background-color: #4d7297; */
+  width: 350px;
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding-top: 10pxx;
+  padding-left: 43px;
+  margin-left: -37px;
+  
+
+/* From https://css.glass */
+background: rgba(235, 152, 191, 0);
+border-radius: 16px;
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgb(156, 27, 87);
+}
+.sms1{
+  /* background-color: #4d7297; */
+  width: 450px;
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-left: -37px;
+  
+}
+
+input{
+  font-size: 40px;
+}
+.name1{
+  /* background-color: #131313; */
+  width: 350px;
+  margin-top: 91px;
+  border-radius: 8px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  height: 45px;
+  margin-left: -37px;
+
+/* From https://css.glass */
+background: rgba(235, 152, 191, 0);
+border-radius: 16px;
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid #9F2B68;
+}
+.name11{
+  /* background-color: #131313; */
+  width: 350px;
+  margin-top: -12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  height: 60px;
+  margin-left: -37px;
+}
+
+.form-button{
+  background-color: #9F2B68;
+  width: 350px;
+  margin-top: -12px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 16px;
+  height: 45px;
+  margin-left: -50px;
+}
+.form-button1{
+  /* background-color: #57565c; */
+  width: 200px;
+  margin-top: -56px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  height: 60px;
+  margin-left: -22px;
+}
+.name1:focus{
+  outline: none;
+}
+.email:focus{
+  outline: none;
+}
+.sms:focus{
+  outline: none;
+}
+.name1-input{
+  margin-top: 20px;
+
+}
+
+.email{
+  /* background-color: #010d18; */
+  border-radius: 8px;
+  padding-left: 50px;
+  border: none;
+  width: 350px;
+  height: 45px;
+  margin-left: -37px;
+  margin-bottom: 65px;
+  margin-top: 68px;
+/* From https://css.glass */
+background: rgba(235, 152, 191, 0);
+border-radius: 16px;
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid #9F2B68;
+}
+.email1{
+  /* background-color: #010d18; */
+  border-radius: 8px;
+  border: none;
+  width: 450px;
+  height: 60px;
+  margin-left: -37px;
+  margin-bottom: 65px;
+}
+.title-form{
+  margin-left: 9px;
+  justify-content: center;
+  margin-top: 37px;
+  margin-bottom: -71px;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+}
+.gif-photo{
+  width: 600px;
+  height: 500px;
+  /* background-color: #6A6D78 */
+}
+.gif{
+  width: 520px;
+  height: 407px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  object-fit: cover;
+  display: flex;
+}
+.btn18{
+  border-radius: 8px;
+  background-color:#9F2B68;
+  border: none;
+ justify-content: center;
+  color: white;
+  width: 130px;
+  text-align: center;
+  padding-left: -100px;
+ padding-bottom: 30px;
+ margin-bottom: 20px;
+ padding-right: px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer{
+  /* background-color: rgb(87, 86, 92); */
+  padding-top: 50px;
+  margin-top: 140px;
+  height: 150px;
+  font-size: 2px;
+  /* From https://css.glass */
+background: rgba(159, 43, 104, 0.77);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
+border: 1px solid rgba(159, 43, 104, 0.3);
+}
+
+
+form {
+  min-width: 25rem;
+}
+form .title {
+  font-family: "Pacifico", cursive;
+  color: #212529;
+  font-size: 2.5rem;
+}
+form .form-control {
+  background-color: #f2f6f8;
+  border-radius: 2rem;
+
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+}
+form .form-control.thick {
+  height: 3.3rem;
+  padding: 0.5rem 3.5rem;
+}
+form .form-control:focus {
+  background-color: #f2f6f8;
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+}
+form .message .form-control {
+  padding: 0.5rem 1.8rem;
+}
+form ::placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #838788;
+  position: relative;
+  left: 0;
+}
+form input,
+form textarea {
+  font-family: "Quicksand", sans-serif;
+  color: #212529;
+  font-size: 1.1rem;
+}
+form .icon {
+  color: #57565c;
+  height: 1.3rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 1.1rem;
+}
+
+.btn.btn-primary {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 3rem;
+  border: 0;
+  border-radius: 3rem;
+  background-image: linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
+  background-size: 300% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-primary:hover:enabled {
+  box-shadow: 0 0.5em 0.5em -0.4em #ff923cba;
+  background-size: 100% 100%;
+  transform: translateY(-0.15em);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .ig1{
   object-fit: cover;
 } */
@@ -710,7 +994,7 @@ margin-left: 35px;
 }
 .carousel .card {
   scroll-snap-align: start;
-  height: 450px;
+  height: 440px;
   list-style: none;
   /* background: #ca3030; */
   cursor: pointer;
@@ -723,7 +1007,7 @@ margin-left: 35px;
 }
 .rep{
   display: flex;
-  margin-top: -8px;
+  margin-top: -39px;
 }
 .carousel .card .img {
   /* background: #8B53FF; */
@@ -741,7 +1025,7 @@ margin-left: 35px;
 }
 .carousel .card h2 {
   font-weight: 500;
-  font-size: 1.56rem;
+  font-size: 2.56rem;
   margin: 30px 0 5px;
 }
 .carousel .card span {
@@ -762,17 +1046,18 @@ margin-left: 35px;
 }
 
 .btn-rep{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background-color: #9F2B68;
   font-weight: 900;
    color:white;
    border: none;
    text-decoration: none;
-   height:60px;
-   width:140px;
+   height:50px;
+   width:120px;
    margin-left: -100px;
    margin-right: 20px;
    margin-top: -100px;
+   padding-top: -100px;
    cursor: pointer;
    border-radius: 5px;
    font-size: 15px
@@ -786,14 +1071,46 @@ margin-left: 35px;
    color:white;
    border: none;
    text-decoration: none;
-   height:60px;
-   width:140px;
+   height:50px;
+   width:120px;
    margin-left: -100px;
+   margin-top: 20px;
    cursor: pointer;
    border-radius: 5px;
    font-size: 15px
   
 }
+
+
+.btn10 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn10:hover {
+  background-color: RoyalBlue;
+}
+
+/* import for contact page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
 Here are some of my projects on Web-Development!
@@ -824,4 +1141,54 @@ A Stock Market Learning Application Built In Android With Firebase Database.It H
 Repo Link  
 
 Personal Portfolio
-Website desgined for My Personal. Used HTML5, CSS And JavaScript.It Is Hosted On GitHub Pages. */
+Website desgined for My Personal. Used
+ HTML5, CSS And JavaScript.It Is Hosted On GitHub Pages. */
+
+ input[type=text] {
+
+  font-size: 16px;
+ 
+  background-image: url('img/user-regular-24.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 12px 20px 12px 43px;
+  background-size: 18px 18px;
+}
+input::placeholder {
+  
+  font-size: 1em;
+  
+}
+
+input[type=email] {
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  background-image: url('img/envelope-regular-24\ \(3\).png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 43px;
+  background-size: 18px 18px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 50px;
+  
+}
+
+textarea::placeholder{
+  font-size: 16px;
+}
+.footer-icons{
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+.footer-text{
+  text-align: center;
+  font-size: 3px;
+}
