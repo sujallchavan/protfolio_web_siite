@@ -16,6 +16,7 @@ toggle.addEventListener('click', function(){
 });
 
 
+
 function switchVisible() {
     if (document.getElementById('Div1')) {
 
@@ -138,3 +139,22 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+
+
+
+
+
+
+
+
+const toggleButton = document.getElementById("toggleButton");
+const flexContainer = document.getElementById("navbar");
+
+toggleButton.addEventListener("click", function() {
+    if (flexContainer.style.display === "none") {
+        flexContainer.style.display = "flex";
+    } else {
+        flexContainer.style.display = "none";
+    }
+});
