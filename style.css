@@ -84,7 +84,7 @@
     font-size: larger;
   }
 
-  @media screen and (max-width:900px) {
+  @media screen and (max-width:1250px) {
     .header{
       padding: 0;
       filter: blur();
@@ -126,13 +126,14 @@
       display: flex;
       right: 50px;
       top: 26px;
+      margin-right: 389px;
       
     }
     .logo{
       position: absolute;
       margin-bottom: -35px;
-      left: 30px;
-      top: 10px;
+      left: 17px;
+      top: 13px;
     }
     #navbar a:hover::before{
       width: 0%;
@@ -213,7 +214,7 @@
     height: 0px;
     margin-top: 220px;
     line-height: 10px;
-    padding-left: 80px;
+    padding-left: 110px;
   }
   .info{
     /* background-color: #2980b9; */
