@@ -133,7 +133,7 @@
     .logo{
       position: absolute;
       margin-bottom: -35px;
-      left: 17px;
+      left: 20px;
       top: 13px;
     }
     #navbar a:hover::before{
@@ -157,7 +157,7 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
+  margin-left: -30px;
 }
 .about-text {
  
@@ -391,6 +391,7 @@ padding-left: 20px;
 .flex-container {
   padding-top: 50px;
   display: flex;
+  margin-left: 10px;
   justify-content: space-between;
   /* background-color: DodgerBlue; */
 }
@@ -399,7 +400,7 @@ padding-left: 20px;
   backdrop-filter: blur(10px);  
   border-radius: 30px;
   border: 1px solid #9F2B68;
-  width: 550px;
+  width: 490px;
   height: 370px;
   margin: 10px;
   text-align: center;
@@ -1075,6 +1076,29 @@ form .icon {
 }
 
 @media screen and (max-width: 600px) {
+  #navbar {
+    display: none;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: #cb3887;
+    /* backdrop-filter: blur(20px); */
+    width: 200px;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -100%;
+}
+  .Contact-section {
+    /* background-color: #892459; */
+    display: flex;
+    margin-top: -40px;
+    margin-left: -100px;
+}
+  #About{
+    padding-left: 0px;
+      
+    }
   .header{
     width: 500px;
   }
@@ -1092,7 +1116,19 @@ form .icon {
     font-size: 70px;
     flex-direction: column;
   }
-
+  .photo1 {
+    width: 360px;
+    height: 385px;
+    border-radius: 15px 50px 30px;
+    margin-top: 96px;
+    margin-left: 130px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.home-section{
+  margin-left: -200px;
+}
   .button a {
     position: fixed;
     bottom: 20px;
@@ -1105,18 +1141,20 @@ form .icon {
     border-radius: 73px;
     box-shadow: rgba(0, 0, 0, 0.15);
 }
-.glyphicon-menu-hamburger {
+/* .glyphicon-menu-hamburger {
   display: flex;
   right: 150px;
   top: 26px;
-}
+} */
 
 .footer {
   /* background-color: rgb(87, 86, 92); */
   padding-top: 50px;
   margin-top: 140px;
   height: 150px;
-  width: 300px;
+  width: 300%;
+  display: flex;
+  flex-direction: row;
   padding-right: 334px;
   font-size: 2px;
   background: rgba(159, 43, 104, 0.77);
@@ -1271,7 +1309,7 @@ textarea::placeholder{
 .footer-icons{
   justify-content: center;
   text-align: center;
-  font-size: 50px;
+  font-size: 41px;
 }
 .footer-text{
   margin-top: -8px;
