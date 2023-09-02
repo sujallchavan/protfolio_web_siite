@@ -85,7 +85,7 @@
     font-size: larger;
   }
 
-  @media screen and (max-width:800px) {
+  @media screen and (max-width:900px) {
     .header{
       padding: 0;
       filter: blur();
@@ -1075,6 +1075,9 @@ form .icon {
 }
 
 @media screen and (max-width: 600px) {
+  .header{
+    width: 500px;
+  }
   .wrapper .carousel {
     grid-auto-columns: 100%;
 
@@ -1082,13 +1085,14 @@ form .icon {
   section{
     display: flex;
     /* height: 880px ; */
-    width: 100%;
+    width:500px;
     align-items: center;
     margin-left: 130px;
     color: var(--secondary-color);
     font-size: 70px;
     flex-direction: column;
   }
+
   .button a {
     position: fixed;
     bottom: 20px;
@@ -1103,7 +1107,7 @@ form .icon {
 }
 .glyphicon-menu-hamburger {
   display: flex;
-  right: 38px;
+  right: 150px;
   top: 26px;
 }
 
@@ -1112,7 +1116,7 @@ form .icon {
   padding-top: 50px;
   margin-top: 140px;
   height: 150px;
-  width: 1000px;
+  width: 300px;
   padding-right: 334px;
   font-size: 2px;
   background: rgba(159, 43, 104, 0.77);
