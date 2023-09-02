@@ -391,7 +391,7 @@ padding-left: 20px;
 .flex-container {
   padding-top: 50px;
   display: flex;
-  margin-left: 10px;
+  margin-left: 70px;
   justify-content: space-between;
   /* background-color: DodgerBlue; */
 }
@@ -403,6 +403,7 @@ padding-left: 20px;
   width: 490px;
   height: 370px;
   margin: 10px;
+  margin-left: 20px;
   text-align: center;
   line-height: 75px;
   /* font-size: 50px; */
@@ -1098,11 +1099,11 @@ form .icon {
 }
   #About{
     padding-left: -10px;
-    margin-left: 51px;
+    margin-left: 10px;
       
     }
     #Skills{
-      margin-left: 60px;
+      margin-left: 20px;
     }
   .header{
     width: 500px;
@@ -1132,7 +1133,7 @@ form .icon {
     justify-content: center;
 }
 .home-section{
-  margin-left: -265px;
+  margin-left: -360px;
 }
   .button a {
     position: fixed;
