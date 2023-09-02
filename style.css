@@ -1076,6 +1076,7 @@ form .icon {
 }
 
 @media screen and (max-width: 600px) {
+  
   #navbar {
     display: none;
     top: 0;
@@ -1093,11 +1094,15 @@ form .icon {
     /* background-color: #892459; */
     display: flex;
     margin-top: -40px;
-    margin-left: -100px;
+    margin-left: -260px;
 }
   #About{
-    padding-left: 0px;
+    padding-left: -10px;
+    margin-left: 51px;
       
+    }
+    #Skills{
+      margin-left: 60px;
     }
   .header{
     width: 500px;
@@ -1127,7 +1132,7 @@ form .icon {
     justify-content: center;
 }
 .home-section{
-  margin-left: -200px;
+  margin-left: -265px;
 }
   .button a {
     position: fixed;
@@ -1154,7 +1159,7 @@ form .icon {
   height: 150px;
   width: 300%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-right: 334px;
   font-size: 2px;
   background: rgba(159, 43, 104, 0.77);
