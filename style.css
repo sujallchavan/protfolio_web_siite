@@ -1077,6 +1077,12 @@ form .icon {
 }
 
 @media screen and (max-width: 600px) {
+  .header{
+    position: -webkit-sticky;
+  }
+  .logo{
+    position: fixed;
+  }
   
   #navbar {
     display: none;
@@ -1322,3 +1328,4 @@ textarea::placeholder{
   text-align: center;
   font-size: 3px;
 }
+/* sujal */
