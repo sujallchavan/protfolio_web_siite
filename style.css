@@ -164,7 +164,7 @@
   margin-left: 22px;  
 }
 .about-photo {
-  margin-right: 120px;
+  margin-right: 0px;
 }
 .flex-container{
   flex-direction: column;
@@ -696,7 +696,7 @@ margin-left: 35px;
   padding-top: 10pxx;
   padding-left: 43px;
   margin-left: -37px;
-  
+  font-size: 16px;
 
 /* From https://css.glass */
 background: rgba(235, 152, 191, 0);
@@ -789,6 +789,7 @@ border: 1px solid #9F2B68;
   border: none;
   width: 350px;
   height: 45px;
+  
   margin-left: -37px;
   margin-bottom: 65px;
   margin-top: 68px;
@@ -799,6 +800,7 @@ border-radius: 16px;
 backdrop-filter: blur(0px);
 -webkit-backdrop-filter: blur(0px);
 border: 1px solid #9F2B68;
+
 }
 .email1{
   /* background-color: #010d18; */
@@ -894,7 +896,7 @@ form ::placeholder {
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #838788;
+  color: #a0a5a6;
   position: relative;
   left: 0;
 }
@@ -1129,13 +1131,15 @@ form .icon {
     flex-direction: column;
   }
   .photo1 {
-    width: 360px;
-    height: 385px;
+    width: 400px;
+    height: 400px;
     border-radius: 15px 50px 30px;
-    margin-top: 96px;
-    margin-left: 130px;
+    margin-top: 52px;
+    margin-left: 0px;
+   
     object-fit: cover;
     display: flex;
+    top: 2;
     justify-content: center;
 }
 .home-section{
@@ -1296,8 +1300,9 @@ input::placeholder {
   
 }
 
+
 input[type=email] {
-  font-family: "Poppins",sans-serif;
+  color: #050405;
   font-size: 16px;
   background-image: url('img/envelope-regular-24\ \(3\).png');
   background-position: 10px 10px; 
@@ -1311,7 +1316,7 @@ textarea {
   padding: 12px 20px;
   box-sizing: border-box;
   border-radius: 4px;
-  font-size: 50px;
+  font-size: 200px; 
   
 }
 
